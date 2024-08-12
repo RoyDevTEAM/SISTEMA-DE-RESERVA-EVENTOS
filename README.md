@@ -18,6 +18,9 @@ La empresa **Magno** enfrenta dificultades significativas en la gestión de even
 ![drawSQL-image-export-2024-08-12](https://github.com/user-attachments/assets/8fb59df0-dced-417e-8894-2d3128374141)
 
 ## 📋 Historias de Usuario
+## 📊 Diagrama Ishikawa
+![WhatsApp Image 2024-08-12 at 6 28 27 PM (1)](https://github.com/user-attachments/assets/7d74d993-7833-49d0-ae5d-fde5c86cbae3)
+
 
 | ID   | Épica/Historia de Usuario   | Descripción                                                                                                  | Prioridad | Estimación (Días) |
 |------|-----------------------------|--------------------------------------------------------------------------------------------------------------|-----------|--------------------|

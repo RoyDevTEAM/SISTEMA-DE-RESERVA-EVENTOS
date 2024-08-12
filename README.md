@@ -15,7 +15,7 @@ La empresa **Magno** enfrenta dificultades significativas en la gestión de even
 
 ## 📊 Diagrama
 
-_(Aquí puedes insertar el diagrama relevante)_
+![drawSQL-image-export-2024-08-12](https://github.com/user-attachments/assets/8fb59df0-dced-417e-8894-2d3128374141)
 
 ## 📋 Historias de Usuario
 

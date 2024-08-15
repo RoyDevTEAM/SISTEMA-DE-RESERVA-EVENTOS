@@ -1,6 +1,6 @@
 # 🎉 Sistema de Gestión de Eventos "Las Perlas"
 
-![PERLAS](https://github.com/user-attachments/assets/8e447be5-302f-46dd-9b41-57cdb3079431)
+![PERLAS](https://tarija.upds.edu.bo/logo.png)
 
 ## 📚 Información del Proyecto
 

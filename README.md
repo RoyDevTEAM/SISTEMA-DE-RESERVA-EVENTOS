@@ -1,10 +1,24 @@
 # 🎉 Sistema de Gestión de Eventos "Las Perlas"
 
+![PERLAS](https://github.com/user-attachments/assets/8e447be5-302f-46dd-9b41-57cdb3079431)
+
+## 📚 Información del Proyecto
+
+**Materia:** Sistemas de Información III  
+**Docente:** Ing. Jaime Zambrana Chacón  
+**Integrantes:** 
+- Jonathan Kenny Arias Fernández
+- Roider Millares Mano
+- Josue Huayllas Salazar
+- Yorbin Afriel Mier Cabrera
+
 ## 🌟 Planteamiento de la Problemática
 
 La empresa **"Las Perlas"** ofrece servicios de organización de eventos, como graduaciones, cumpleaños, matrimonios y más. Actualmente, los clientes deben acudir personalmente al local para hacer reservas, lo cual puede resultar inconveniente y poco eficiente. Esto no solo limita la accesibilidad para los clientes, sino que también genera una carga adicional para el personal del negocio, que debe gestionar todas las solicitudes de manera manual. Además, este proceso carece de la flexibilidad y rapidez que los clientes modernos esperan, lo que podría llevar a la pérdida de potenciales reservas y a una disminución en la satisfacción del cliente.
-##  🌟 Objetivo general:
+
+## 🌟 Objetivo General
 Desarrollar un sistema de gestión de eventos en línea para "Las Perlas" que permita a los clientes realizar reservas de manera rápida y conveniente a través de una página web, facilitando la administración de las solicitudes de reserva y mejorando la experiencia del cliente.
+
 ## 🎯 Objetivos Específicos
 
 1. **🤖 Automatizar el proceso de reserva de eventos**: Implementar una plataforma web donde los clientes puedan seleccionar el tipo de evento, la decoración, el número de asistentes y la fecha deseada, enviando automáticamente la solicitud al administrador.
@@ -51,9 +65,7 @@ Se propone el desarrollo de un sistema de gestión de eventos para **"Las Perlas
 
 ## 📊 Diagrama de la Base de Datos
 
-![Diagrama de la Base de Datos]!
-![PERLAS](https://github.com/user-attachments/assets/8e447be5-302f-46dd-9b41-57cdb3079431)
-
+![Diagrama de la Base de Datos](https://github.com/user-attachments/assets/8e447be5-302f-46dd-9b41-57cdb3079431)
 
 ## 📝 Bitácora
 
@@ -62,5 +74,3 @@ Se propone el desarrollo de un sistema de gestión de eventos para **"Las Perlas
 | 2024-08-15  | Creación de la tabla `Bitacora`  | Se agregó la tabla para llevar control de cambios y registro de movimientos en el sistema. |
 
 ---
-
-

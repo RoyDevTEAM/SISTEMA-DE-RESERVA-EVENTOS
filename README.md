@@ -62,4 +62,4 @@ Se propone el desarrollo de un sistema de gestión de eventos para **"Las Perlas
 
 ---
 
-**Nota**: Asegúrate de que los iconos se muestren correctamente en el entorno donde se visualizará el `README.md`. Puedes ajustar los iconos según tus necesidades específicas.
+

@@ -11,6 +11,7 @@
 - Roider Millares Mano
 - Josue Huayllas Salazar
 - Yorbin Afriel Mier Cabrera
+- Harold Alexis Vargas
 
 ## 🌟 Planteamiento de la Problemática
 

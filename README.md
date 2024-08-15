@@ -1,47 +1,64 @@
-# 🏢 Sistema de Gestión de Eventos para Magno
+# 🎉 Sistema de Gestión de Eventos "Las Perlas"
 
-## 🌟 Planteamiento del Problema
+## 🌟 Planteamiento de la Problemática
 
-La empresa **Magno** enfrenta dificultades significativas en la gestión de eventos debido a la dependencia de procesos manuales. Esta situación ha generado ineficiencias operativas, errores humanos, y una experiencia del cliente insatisfactorio. Además, la falta de herramientas tecnológicas y la inadecuada coordinación entre departamentos han limitado la capacidad de respuesta de la empresa, poniéndola en desventaja frente a la competencia.
+La empresa **"Las Perlas"** ofrece servicios de organización de eventos, como graduaciones, cumpleaños, matrimonios y más. Actualmente, los clientes deben acudir personalmente al local para hacer reservas, lo cual puede resultar inconveniente y poco eficiente. Esto no solo limita la accesibilidad para los clientes, sino que también genera una carga adicional para el personal del negocio, que debe gestionar todas las solicitudes de manera manual. Además, este proceso carece de la flexibilidad y rapidez que los clientes modernos esperan, lo que podría llevar a la pérdida de potenciales reservas y a una disminución en la satisfacción del cliente.
 
-## 🎯 Objetivos
+## 🎯 Objetivos Específicos
 
-1. **🤖 Automatizar la gestión de eventos**: Implementar un sistema digital para gestionar la venta de entradas, reservas, confirmaciones, y coordinación de eventos, reduciendo los errores humanos y mejorando la eficiencia operativa.
-2. **🔄 Mejorar la coordinación entre departamentos**: Centralizar la información y los procesos en una plataforma digital para agilizar la comunicación y colaboración entre los departamentos de ventas, administración, y marketing.
-3. **👥 Optimizar la experiencia del cliente**: Crear un portal en línea que facilite a los clientes la reserva de entradas, el seguimiento de sus reservas y pagos, y el acceso a información actualizada sobre los eventos.
-4. **📈 Implementar indicadores de rendimiento (KPI u OKR)**: Establecer un sistema de métricas y seguimiento para evaluar la eficiencia operativa, la satisfacción del cliente, y la efectividad de las ventas, permitiendo la toma de decisiones basada en datos.
-5. **🛠️ Reducir la dependencia del personal**: Automatizar tareas repetitivas y administrativas, como la emisión de boletos y la facturación, para disminuir la carga de trabajo del personal y mitigar riesgos asociados a la sobrecarga y ausencias.
-6. **🔒 Adaptarse a los cambios normativos**: Desarrollar un sistema que cumpla con las normativas vigentes, facilitando el registro y auditoría de datos detallados, y asegurando la operación continua en un entorno regulatorio dinámico.
+1. **🤖 Automatizar el proceso de reserva de eventos**: Implementar una plataforma web donde los clientes puedan seleccionar el tipo de evento, la decoración, el número de asistentes y la fecha deseada, enviando automáticamente la solicitud al administrador.
+2. **🔄 Mejorar la gestión de reservas**: Proveer al administrador del sistema herramientas para revisar, confirmar o rechazar las reservas de manera eficiente, con un sistema de notificaciones que informe a los clientes sobre el estado de su solicitud.
+3. **👥 Aumentar la accesibilidad y comodidad para los clientes**: Permitir que los clientes puedan realizar reservas desde cualquier lugar y en cualquier momento, eliminando la necesidad de visitar físicamente el negocio.
+4. **📈 Optimizar la comunicación con los clientes**: Incorporar notificaciones automáticas que informen al cliente sobre la confirmación de la reserva, detalles adicionales del evento y recordatorios previos al mismo.
 
-## 📊 Diagrama
+## 💡 Solución Propuesta
 
-![drawSQL-image-export-2024-08-12](https://github.com/user-attachments/assets/8fb59df0-dced-417e-8894-2d3128374141)
+Se propone el desarrollo de un sistema de gestión de eventos para **"Las Perlas"** que funcione a través de una página web. El sistema permitirá a los clientes realizar reservas en línea, seleccionando el tipo de evento, la decoración y la cantidad de asistentes, y enviando su solicitud al administrador del negocio. El administrador podrá gestionar las reservas de manera eficiente, confirmando o rechazando solicitudes, y notificando automáticamente a los clientes sobre el estado de su reserva. Esto no solo mejorará la experiencia del cliente, sino que también optimizará las operaciones del negocio, aumentando su capacidad para atender a un mayor número de clientes y eventos.
 
-## 📋 Historias de Usuario
-## 📊 Diagrama Ishikawa
-![WhatsApp Image 2024-08-12 at 6 28 27 PM (1)](https://github.com/user-attachments/assets/7d74d993-7833-49d0-ae5d-fde5c86cbae3)
+## 📋 Requerimientos del Sistema
+
+| ID     | Requerimiento                              | Descripción                                                                 | Prioridad | Tipo         |
+|--------|--------------------------------------------|-----------------------------------------------------------------------------|-----------|--------------|
+| RQ-01  | Registro de Usuarios                       | Permitir que los clientes se registren y creen una cuenta para realizar reservas. | Alta      | Funcional    |
+| RQ-02  | Inicio de Sesión                           | Permitir que los usuarios registrados inicien sesión en su cuenta.        | Alta      | Funcional    |
+| RQ-03  | Selección de Tipo de Evento                | Los clientes deben poder seleccionar el tipo de evento al hacer una reserva. | Alta      | Funcional    |
+| RQ-04  | Personalización de Decoración              | Permitir a los clientes seleccionar opciones de decoración para su evento. | Media     | Funcional    |
+| RQ-05  | Especificación de Número de Asistentes     | El cliente debe poder indicar el número de asistentes esperados.          | Alta      | Funcional    |
+| RQ-06  | Selección de Fecha y Hora                  | El cliente debe poder seleccionar la fecha y hora para su evento.        | Alta      | Funcional    |
+| RQ-07  | Solicitud de Reserva                       | Permitir al cliente enviar una solicitud de reserva.                      | Alta      | Funcional    |
+| RQ-08  | Confirmación de Reserva por el Administrador | El administrador debe poder revisar y aprobar o rechazar las solicitudes. | Alta      | Funcional    |
+| RQ-09  | Notificaciones Automáticas                 | Enviar notificaciones automáticas al cliente sobre el estado de su reserva. | Alta      | Funcional    |
+| RQ-10  | Visualización de Reservas Confirmadas      | Permitir a los clientes visualizar sus reservas confirmadas.              | Alta      | Funcional    |
+| RQ-11  | Gestión de Calendario                      | El administrador debe tener acceso a un calendario con todas las reservas. | Media     | Funcional    |
+| RQ-12  | Reportes de Reservas                       | Generar reportes de reservas que el administrador pueda consultar.        | Baja      | Funcional    |
+| RQ-13  | Interfaz de Usuario Intuitiva              | La interfaz debe ser intuitiva y fácil de usar para los clientes.        | Alta      | No Funcional |
+| RQ-14  | Seguridad de Datos                         | Los datos de los usuarios deben estar protegidos con medidas de seguridad. | Alta      | No Funcional |
+| RQ-15  | Escalabilidad                              | El sistema debe ser escalable para manejar un número creciente de usuarios.| Media     | No Funcional |
+
+## 📊 Historias de Usuario
+
+| ID    | Historia de Usuario                                     | Criterios de Aceptación                                                                                       | Prioridad | Estimación (Días) |
+|-------|--------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|-----------|--------------------|
+| HU-01 | 👤 Registro e Inicio de Sesión                         | El sistema permite registrar un nuevo usuario y permite iniciar sesión con credenciales válidas.               | Alta      | 3                  |
+| HU-02 | 📅 Selección de Evento y Decoración                   | El sistema muestra opciones de tipo de evento, decoración, y permite seleccionar fecha y hora.                 | Alta      | 4                  |
+| HU-03 | 📝 Solicitud de Reserva                                | El sistema permite enviar la solicitud de reserva y el cliente recibe confirmación de envío.                   | Alta      | 2                  |
+| HU-04 | ✅ Confirmación de Reserva por el Administrador        | El sistema muestra solicitudes de reserva pendientes y permite al administrador aprobar o rechazar.            | Alta      | 3                  |
+| HU-05 | 🔔 Notificaciones Automáticas                           | El sistema envía notificaciones automáticas sobre el estado de la reserva al cliente.                          | Alta      | 2                  |
+| HU-06 | 📅 Gestión de Reservas Confirmadas                     | El sistema muestra un calendario con todas las reservas confirmadas.                                          | Media     | 3                  |
+| HU-07 | 📊 Generación de Reportes de Reservas                 | El sistema permite generar reportes en PDF o Excel, filtrables por fecha y tipo de evento.                    | Baja      | 3                  |
+| HU-08 | 📱 Acceso desde Dispositivos Móviles                  | La página web es completamente responsiva y funcional en dispositivos móviles.                                | Alta      | 3                  |
+
+## 📊 Diagrama de la Base de Datos
+
+![Diagrama de la Base de Datos]!
+[PERLAS](https://github.com/user-attachments/assets/b0a8e7fc-2796-43fc-b5cc-57186b45c513)
 
 
-| ID   | Épica/Historia de Usuario   | Descripción                                                                                                  | Prioridad | Estimación (Días) |
-|------|-----------------------------|--------------------------------------------------------------------------------------------------------------|-----------|--------------------|
-| E01  | 👤 Gestión de Usuarios y Roles | Como administrador, quiero gestionar usuarios y roles para que puedan acceder al sistema según sus permisos. | Alta      | 7                  |
-| HU001| 🔑 Inicio de Sesión            | Como usuario del sistema, mediante mis credenciales, debería poder ingresar al sistema para realizar las funciones disponibles. | Alta      | 5                  |
-| HU002| 🏠 Página de Inicio            | Como usuario del sistema, necesito que el menú de navegación se adapte a mis necesidades.                    | Media     | 5                  |
-| HU003| 👥 Gestión de Usuarios y Roles | Como administrador del sistema, debería poder registrar, modificar, buscar y eliminar usuarios y roles.      | Alta      | 7                  |
-| E02  | 📅 Gestión de Eventos          | Como organizador, quiero gestionar eventos para que se registren en el sistema y puedan ser visualizados por los clientes. | Alta      | 8                  |
-| HU004| 📅 Gestión de Eventos          | Como usuario del sistema, debería poder registrar, modificar, buscar y eliminar eventos en el sistema.       | Alta      | 8                  |
-| E03  | 🎟️ Gestión de Entradas         | Como organizador, quiero gestionar las entradas de los eventos para controlar la disponibilidad y las reservas. | Alta      | 8                  |
-| HU005| 🎟️ Gestión de Entradas         | Como usuario del sistema, debería poder gestionar las entradas de los eventos, modificando su disponibilidad y precios. | Alta      | 8                  |
-| E04  | 🛎️ Gestión de Reservas         | Como cliente, quiero poder realizar reservas de entradas para asegurar mi participación en un evento.       | Alta      | 6                  |
-| HU006| 🛎️ Gestión de Reservas         | Como usuario del sistema, debería poder gestionar las reservas de entradas asociadas a los eventos.           | Alta      | 6                  |
-| E05  | 💵 Gestión de Pagos            | Como organizador, quiero gestionar los pagos de las reservas para asegurar el flujo de ingresos.              | Alta      | 8                  |
-| HU007| 💵 Gestión de Pagos            | Como usuario del sistema, debería poder gestionar tanto los pagos como los detalles específicos asociados a las reservas. | Alta      | 8                  |
-| E06  | 📊 Reportes y Estadísticas     | Como administrador, quiero generar reportes para analizar el rendimiento de los eventos y la satisfacción del cliente. | Media     | 7                  |
-| HU008| 📊 Reportes y Estadísticas     | Como usuario del sistema, debería poder generar reportes de eventos, ventas de entradas y pagos realizados, exportables en PDF. | Media     | 7                  |
-| E07  | 🔔 Notificaciones y Alertas    | Como organizador, quiero enviar notificaciones a los clientes para recordarles eventos próximos y pagos pendientes. | Media     | 6                  |
-| HU009| 🔔 Notificaciones y Alertas    | Como usuario del sistema, debería poder recibir notificaciones y alertas sobre eventos y pagos pendientes.     | Media     | 6                  |
-| E08  | 📱 Integración con Redes Sociales | Como cliente, quiero compartir eventos en redes sociales para que más personas conozcan los eventos.        | Baja      | 5                  |
-| HU010| 📱 Integración con Redes Sociales | Como usuario del sistema, debería poder compartir eventos en redes sociales desde el portal de eventos.      | Baja      | 5                  |
+## 📝 Bitácora
+
+| Fecha       | Acción Realizada                  | Descripción                                 |
+|-------------|-----------------------------------|---------------------------------------------|
+| 2024-08-15  | Creación de la tabla `Bitacora`  | Se agregó la tabla para llevar control de cambios y registro de movimientos en el sistema. |
 
 ---
 

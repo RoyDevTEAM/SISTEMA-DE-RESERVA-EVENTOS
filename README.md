@@ -3,7 +3,8 @@
 ## 🌟 Planteamiento de la Problemática
 
 La empresa **"Las Perlas"** ofrece servicios de organización de eventos, como graduaciones, cumpleaños, matrimonios y más. Actualmente, los clientes deben acudir personalmente al local para hacer reservas, lo cual puede resultar inconveniente y poco eficiente. Esto no solo limita la accesibilidad para los clientes, sino que también genera una carga adicional para el personal del negocio, que debe gestionar todas las solicitudes de manera manual. Además, este proceso carece de la flexibilidad y rapidez que los clientes modernos esperan, lo que podría llevar a la pérdida de potenciales reservas y a una disminución en la satisfacción del cliente.
-
+##🌟 Objetivo general:
+Desarrollar un sistema de gestión de eventos en línea para "Las Perlas" que permita a los clientes realizar reservas de manera rápida y conveniente a través de una página web, facilitando la administración de las solicitudes de reserva y mejorando la experiencia del cliente.
 ## 🎯 Objetivos Específicos
 
 1. **🤖 Automatizar el proceso de reserva de eventos**: Implementar una plataforma web donde los clientes puedan seleccionar el tipo de evento, la decoración, el número de asistentes y la fecha deseada, enviando automáticamente la solicitud al administrador.

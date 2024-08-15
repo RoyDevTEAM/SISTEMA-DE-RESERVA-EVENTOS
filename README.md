@@ -51,7 +51,7 @@ Se propone el desarrollo de un sistema de gestión de eventos para **"Las Perlas
 ## 📊 Diagrama de la Base de Datos
 
 ![Diagrama de la Base de Datos]!
-[PERLAS](https://github.com/user-attachments/assets/b0a8e7fc-2796-43fc-b5cc-57186b45c513)
+![PERLAS](https://github.com/user-attachments/assets/8e447be5-302f-46dd-9b41-57cdb3079431)
 
 
 ## 📝 Bitácora

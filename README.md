@@ -96,7 +96,7 @@ Se propone desarrollar un sistema de gestión de eventos para **"Las Perlas"** a
 
 ---
 
-*## 7.1 Herramientas Utilizadas
+## 7.1 Herramientas Utilizadas
 
 En el desarrollo de este proyecto, hemos empleado una variedad de herramientas y tecnologías para gestionar el frontend, backend, la base de datos y el control de versiones. A continuación, se detallan las herramientas principales:
 

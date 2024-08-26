@@ -96,4 +96,25 @@ Se propone desarrollar un sistema de gestión de eventos para **"Las Perlas"** a
 
 ---
 
-**Nota**: Este README.md es un documento vivo y puede ser actualizado conforme se avance en el desarrollo del proyecto. Los cambios y actualizaciones deben ser reflejados en las versiones futuras del documento.
+*## 7.1 Herramientas Utilizadas
+
+En el desarrollo de este proyecto, hemos empleado una variedad de herramientas y tecnologías para gestionar el frontend, backend, la base de datos y el control de versiones. A continuación, se detallan las herramientas principales:
+
+- **🔧 Angular**: Framework de desarrollo web para construir aplicaciones de una sola página. Angular facilita la creación de aplicaciones ricas y dinámicas mediante el uso de TypeScript y la vinculación bidireccional de datos.
+
+- **🚀 Vercel**: Plataforma para el despliegue de aplicaciones frontend, optimizada para proyectos construidos con frameworks modernos como Angular. Vercel proporciona un proceso de implementación simplificado y una infraestructura escalable para aplicaciones web.
+
+- **🔥 Firebase**: Plataforma que ofrece una suite completa de servicios backend, incluyendo bases de datos en tiempo real, autenticación de usuarios y almacenamiento. En este proyecto, Firebase se utiliza para manejar la autenticación de usuarios y almacenar datos de manera eficiente.
+
+- **🔄 Git**: Sistema de control de versiones distribuido que permite gestionar y rastrear los cambios en el código fuente. Git facilita la colaboración entre los miembros del equipo, asegurando un historial completo de cambios y la capacidad de revertir modificaciones si es necesario.
+
+- **🐙 GitHub**: Plataforma de alojamiento para proyectos que utilizan Git. GitHub proporciona una interfaz web para la gestión de repositorios, facilitando la colaboración en equipo, la revisión de código y la gestión de problemas. En este proyecto, GitHub se usa para alojar el repositorio del código fuente y coordinar el trabajo del equipo.
+
+- **🤖 GitHub Actions**: Herramienta de integración continua y entrega continua (CI/CD) que permite automatizar los flujos de trabajo de desarrollo, incluyendo la construcción, pruebas y despliegue del código. GitHub Actions facilita la automatización de tareas repetitivas y asegura la calidad del código a través de pruebas automatizadas.
+
+- **🌟 Tailwind CSS**: Framework CSS altamente personalizable que permite crear interfaces modernas y responsivas utilizando clases de utilidad predefinidas. Tailwind CSS acelera el proceso de diseño y asegura consistencia visual en todo el proyecto.
+
+- **💻 JavaScript (JS)**: Lenguaje de programación esencial para el desarrollo web, utilizado para crear páginas interactivas y dinámicas. JavaScript maneja la lógica del frontend, mejorando la experiencia del usuario mediante la manipulación del DOM, gestión de eventos e interacción con APIs.
+
+- **📝 Visual Studio Code (VS Code)**: Editor de código fuente robusto y extensible que soporta múltiples lenguajes de programación, incluyendo JavaScript y TypeScript. VS Code ofrece herramientas integradas para la depuración, la gestión de proyectos y la integración con sistemas de control de versiones como Git, optimizando el flujo de trabajo de desarrollo.
+
